@@ -5,34 +5,36 @@
         <link rel="stylesheet" href="styles.css">
 <title>Napravite nalog</title>
    </head>
-<body>
+<body >
 <header>
-    <h1>Postanite nas korisnik</h1>
-    <hr>
+    <h1>Postanite princeza</h1>
 </header>
+
 <main>
-<section>
-<h2>1. Unesite Vase podatke:</h2>
+
+    <div class="container">
+<section class="prva-forma">
+
    <form>
-<label for="ime">Ime:</label>
+
+<label for="ime">Ime: </label>
 <input type="text" id="ime" name="ime">
 <br>
-<label for="prezime">Prezime:</label>
+<label for="prezime">Prezime: </label>
 <input type="text" id="prezime" name="prezime">
 <br>
-Pol: <label for="musko">M</label>
-<input type="radio" id="musko" name="musko">
-<label for="ne">Z</label>
-<input type="radio" id="zensko" name="zensko"><br>
+
+
 <label for="email">E-mail:</label>
 <input type="text" id="email" name="email">
 <br>
+
 <label for="datum-rodjenja">Datum rodjenja:</label>
 <input type="date" id="datum-rodjenja" name="datum-rodjenja">
+
 </form>
 </section>
-<section>
-    <h2>2. Unesite podatke za nalog:</h2>
+<section class="druga-forma"> 
 <form>
     <label for="korisnicko-ime">Korisnicko ime:</label>
     <input type="text" id="korisnicko-ime" name="korisnicko-ime">
@@ -41,24 +43,16 @@ Pol: <label for="musko">M</label>
     <input type="text" id="sifra" name="sifra">
       </form>
      </section>
-     <section>
-         <h2>3. Da li zelite premium verziju?</h2>
-         <form>
-            <label for="da">Da</label>
-            <input type="radio" id="da" name="da">
-            <label for="ne">Ne</label>
-            <input type="radio" id="ne" name="ne">
-     </section>
-     <section>
-         <form>
-             <h2>4. To je sve!</h2>
+     <section class="treca-forma">
+        
          <input type="submit" value="Napravite nalog">
-        </form>
      </section>
+    </div>
     </main>
 <footer>
 
-<!-- OVDE FOOTER UBACITI-->
+   <p> © 2021 Ana Markovic </p>
+
 </footer>
 </body>
 </html>
