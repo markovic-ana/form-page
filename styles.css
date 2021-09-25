@@ -5,15 +5,8 @@
     box-sizing: border-box;
     padding:0px;
     margin: 0px;
+    
 }
-
-/*body {
-background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 44%, rgba(148,187,233,1) 100%);
-background: url(princeza.png) left bottom no-repeat;
-background-size: 500px 700px;
-background-blend-mode: multiply;
-}*/
 
 body {
     width: 100%;
@@ -22,9 +15,9 @@ body {
     radial-gradient(circle, rgba(238,174,202,1) 44%, rgba(148,187,233,1) 100%);
     background-repeat: no-repeat,
     no-repeat;
-    background-position: bottom left,
+    background-position: left,
     center;
-    background-size: 600px 700px,
+    background-size: 640px 800px,
     auto;
 }
 
@@ -56,10 +49,10 @@ h1 {
 form {
     padding: 24px;
     background: rgba(181, 177, 202, 0.685);
-
+    padding-bottom: 40px;
 }
 
-input[type=text],select,textarea{
+input[type=text],select,textarea,input[type="password"]{
     padding: 6px;
     width: 445px;
     font-family: Arial;
@@ -80,9 +73,16 @@ input[type=submit]{
     font-size: 24px;
     border: 0px;
     overflow: hidden;
-    padding: 5px;
     font-family: 'Berkshire Swash', cursive;
+    padding-bottom: 0px;
 }
+
+input[type=submit],input[type=date],input[type=text],input[type="password"]{
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
 
 
 label {
@@ -96,21 +96,34 @@ label {
 
 .prva-forma {
     flex:1 1 0%;
-    border: 5px solid #6286af;
+    border: 5px solid rgb(195,162,202);
+    border-radius: 5px;
     padding-top: 0px;
 }
 
 .druga-forma {
     flex:1 1 0%;;
-    border: 5px solid #6286af;
+    border: 5px solid rgb(195,162,202);
+    border-radius: 5px;
 }
 
 .treca-forma,input[type=submit]:hover{
     background-color:#cc86c9;
+    border-radius: 5px;
 }
 
 footer{
     font-family: 'Berkshire Swash', cursive;
-    margin-top:0px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 50px;
+}
+
+footer p {
+    position:absolute;
+    top:50px;
+    left:87%;
+    color: white;
+   
 }
 
