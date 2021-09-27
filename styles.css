@@ -34,6 +34,7 @@ h1 {
     text-align: center;
     font-size: 60px;
     color: white;
+    letter-spacing: 4.3px;
 }
 
 .container {
@@ -75,6 +76,8 @@ input[type=submit]{
     overflow: hidden;
     font-family: 'Berkshire Swash', cursive;
     padding-bottom: 0px;
+    letter-spacing: 5px;
+    cursor: pointer;
 }
 
 input[type=submit],input[type=date],input[type=text],input[type="password"]{
